@@ -1,0 +1,176 @@
+
+/* css code for home */
+*{
+    font-family: cursive;
+   
+}
+#nav{
+    background-color: rgb(227, 247, 247);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+#m1{
+    color: aqua;
+    padding-left: 40px;
+}
+#m2{
+    padding-top: 25px;
+    padding-left: 180px;
+}
+#m2 a{
+    padding-left: 20px;
+}
+#m2 a{
+    margin: 20px;
+}
+#m2 button{
+    border-radius: 15px;
+    background-color: aqua;
+
+}
+#ids{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+    height: 450px;
+}
+#i2 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 35px;
+    
+}
+#i1 button{
+    border-radius: 15px;
+    background-color: blue;
+}
+
+
+
+/* css code for about */
+#about1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
+#about2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px;
+}
+#about2 img{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+#about3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
+
+/* css code for contacts */
+#con-main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(216, 235, 108);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#contacts2{
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+#contacts2 form{
+    background-color: rgb(182, 230, 134);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black ;
+    border-radius: 20px;    
+}
+.cbn{
+    background-color:darkblue;
+    color: white;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+/* css for gallery page */
+
+#imgs{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+#imgs img{
+    width: 330px;
+    height: 280px;
+}
+#buttonf button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+#page-main{
+    background-color: aquamarine;
+    padding: 35px;
+}
+#pm1{
+    margin-top: 40px;
+}
+#pm1 h3{
+    display: inline;
+    margin: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    color: blue;
+}
+#pm2{
+    text-align: center;
+}
+#pm3{
+    text-align: center;
+    margin-bottom: 90px;
+}
+#pm4 h4{
+    text-align: center;
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#pm5{
+    margin-bottom: 50px;
+}
+
+/* adding media queries */
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;} 
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
